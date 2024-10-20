@@ -1,0 +1,555 @@
+/* General Styles */
+body {
+    background-color: #dedede;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.container-style-main, .container-style-main2 {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 180%;
+}
+
+/* Profile Column */
+.perfil-usuario-main {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.background-usuario-main {
+    background: linear-gradient(135deg, #001E1A, #10D589);
+    height: 120px;
+    border-radius: 12px 12px 0 0;
+}
+
+.perfil-usuario-main img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 4px solid #fff;
+    object-fit: cover;
+}
+
+.nombre-perfil {
+    font-size: 22px;
+    font-weight: 700;
+    color: #001E1A;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.tabla-estadisticas a {
+    display: inline-block;
+    width: 48%;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tabla-estadisticas a:hover {
+    background-color: #10D589;
+    color: #fff;
+}
+
+/* Main Column */
+.container-usuario-publicar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-usuario-publicar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #10D589;
+}
+
+.form-publicar {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.published {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    color: #333;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.image-upload-file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-file-upload {
+    background-color: #10D589;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.custom-file-upload:hover {
+    background-color: #001E1A;
+}
+
+.custom-file-upload img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.btn-publi {
+    background-color: #10D589;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-publi:hover {
+    background-color: #001E1A;
+}
+
+/* Publications */
+.container-usuarios-publicaciones {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.usuarios-publicaciones-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.informacion-usuario-publico h6 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #001E1A;
+    margin-bottom: 5px;
+}
+
+.informacion-usuario-publico span {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.contenido-publicacion-usuario p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.imagen-publicacion-usuario {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+    margin-top: 10px;
+}
+
+/* Like Button */
+.like-active {
+    color: #10D589;
+}
+
+.like-inactive {
+    color: #333;
+}
+
+#megustas:hover {
+    cursor: pointer;
+}
+
+
+.col-md-4-perfil {
+    width: 100%;
+}
+
+.imagen-perfil-usuario {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 4px solid #fff;
+    object-fit: cover;
+}
+
+
+.imagen-perfil-cambiar {
+    color: black;
+}
+
+.camara-cambiar {
+    background-color: #10D589;
+    width: 3%;
+    height: 35px;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-foto-usuario-perfil-cambiar {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imagen-publicacion-usuario-perfil {
+    width: 96%;
+    height: auto;
+    border-radius: 32px;
+    margin-top: 10px
+}
+
+
+.container-header-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-md-6-perfil {
+    width: 100%;
+    margin: 0;
+    padding: 35px 150px 70px 150px;
+}
+
+
+
+.perfil-container-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenido-publicacion-usuario-perfil {
+    padding: 10px 30px 10px 30px;
+}
+
+
+.input-cambiar-foto {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 28px;
+    opacity: 10%;
+}
+
+
+.datos-personales-usuario h3 {
+    padding-top: 9px;
+}
+
+
+.descripcion-usuario {
+    color: black;
+}
+
+
+
+
+
+
+.acciones-usuario-seguir a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #10D589;
+}
+
+.acciones-usuario-seguir a.seguir-active {
+    background-color: #001E1A;
+}
+
+.acciones-usuario-seguir {
+    padding: 10px 0 10px 0;
+}
+
+
+
+.descripcion-usuario {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 15px 270px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.estadisticas-usuario {
+    display: flex;
+    padding: 15px 0;
+    flex-direction: column;
+    align-items: center;
+    color: #001E1A;
+}
+
+
+@media (max-width: 1227px) {
+    .col-md-6-perfil {
+        padding: 35px 50px 70px 50px;
+    }
+}
+
+
+
+@media (max-width: 999px) {
+    .container-usuario-publicar {
+        flex-direction: column;
+        margin: 0 140px 20px 0;
+        width: 100%;
+    }
+
+    .image-upload-file {
+        justify-content: center;
+        flex-direction: column;
+        align-items: baseline;
+        width: 100%;
+    }
+
+    .custom-file-upload {
+        margin: 5px;
+    }
+
+
+}
+
+
+
+@media (max-width: 991px) {
+    .container-style-main, .container-style-main2 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media (max-width: 985px) {
+
+    /* .container-style-main {
+        margin: 0;
+        margin-top: 80px;
+    }
+
+
+
+    .container-style-main2 {
+        
+    }
+
+    .row {
+        width: 120%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-md-3 {
+        flex: auto;
+        width: 60%;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        padding-bottom: 200px;
+    }
+
+    header {
+        width: 109%;
+    } */
+    
+    
+}
+
+@media (max-width: 771px) {
+    .usuarios-publicaciones-top {
+        display: flex;
+        flex-direction: row;
+
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .container-style-main, .container-style-main2 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .perfil-usuario-main img {
+        width: 80px;
+        height: 80px;
+        margin-top: -40px;
+    }
+
+    .nombre-perfil {
+        font-size: 18px;
+    }
+
+    .tabla-estadisticas a {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .container-usuario-publicar {
+        flex-direction: row;
+    }
+
+    .form-publicar {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .image-upload-file {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .btn-publi {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .upload-photo {
+        font-size: 10px;
+    }
+
+    .custom-file-upload {
+        margin: 5px;
+    }
+
+    .ml-l {
+        display: none;
+    }
+}
+
+@media (max-width: 707px) {
+    .upload-photo {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width: 583px) {
+    .ml-l {
+        display: none;
+    }
+
+    .container-usuario-publicar {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .custom-file-upload {
+        padding: 10px 10px;
+        margin: 5px 10px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .image-upload-file {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (max-width: 853px) {
+    .descripcion-usuario {
+        margin: 15px 170px;
+    }
+}
+
+@media (max-width: 707px) {
+    .descripcion-usuario {
+        margin: 15px 70px;
+    }
+}
+
+@media (max-width: 811px) {
+    .col-md-6-perfil {
+        width: 100%;
+        margin: 0;
+        padding: 35px 50px 70px 50px;
+    }
+}
+
+@media (max-width: 587px) {
+    .col-md-6-perfil {
+        width: 100%;
+        margin: 0;
+        padding: 35px 25px 70px 25px;
+    }
+}
+
+@media (max-width: 539px) {
+    .col-md-6-perfil {
+        width: 100%;
+        margin: 0;
+        padding: 35px 15px 70px 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .descripcion-usuario {
+        margin: 15px 10px;
+    }
+}
+
+
+
+
+
+/* CHAT GPT 21-09-24 */
+
